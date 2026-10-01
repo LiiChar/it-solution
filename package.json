@@ -38,8 +38,7 @@
     "dotenv": "^18.0.5",
     "graphql": "16",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1",
-    "tsx": "^4.23.15"
+    "rxjs": "^7.8.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^12.0.0",
@@ -58,6 +57,7 @@
     "supertest": "^7.0.0",
     "typescript": "6",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^4.1.2"
+    "vitest": "^4.1.2",
+    "tsx": "^4.23.15"
   }
 }
