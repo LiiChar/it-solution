@@ -18,6 +18,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
       driver: ApolloDriver,
       autoSchemaFile: true,
       graphiql: true,
+      introspection: true,
     }),
     ConfigModule.forRoot({ isGlobal: true }),
     PrismaModule,
