@@ -885,7 +885,7 @@
   dependencies:
     "@prisma/client-runtime-utils" "7.10.0"
 
-"@prisma/config@7.10.0":
+"@prisma/config@7.10.0", "@prisma/config@^7.10.0":
   version "7.10.0"
   resolved "https://registry.yarnpkg.com/@prisma/config/-/config-7.10.0.tgz#365dfc46fae23867734b60af6fbf9ed297507f31"
   integrity sha512-Rcg828gIRE3HOQ3pOATFjV5d/P0U9OIobxhd/IMxlfWjA4vru0eGwb0AIwFw0rmcLMVShohZYWPixVxkBHsxUA==
