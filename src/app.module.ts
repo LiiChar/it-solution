@@ -5,6 +5,8 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriverConfig } from '@nestjs/apollo';
 import { ConfigModule } from '@nestjs/config';
 
+import { AppController } from './app.controller.js';
+
 import { PrismaModule } from './prisma/prisma.module.js';
 import { ProfileModule } from './profile/profile.module.js';
 
@@ -21,6 +23,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
     PrismaModule,
     ProfileModule
   ],
+  controllers: [AppController],
 })
 
 export class AppModule {}
